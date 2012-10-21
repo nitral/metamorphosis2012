@@ -25,7 +25,7 @@ a
 {
 	float: left;
 	width: 100%;
-        text-align: right;
+    text-align: right;
 }
 
 #banner
@@ -37,16 +37,16 @@ a
 
 #oasisLogo
 {
-right: 30px;
-top: -5px;
-position: absolute;
+	right: 30px;
+	top: -5px;
+	position: absolute;
 }
 
 #sponsorLogo
 {
-right: 168px;
-top: 25px;
-position: absolute;
+	right: 168px;
+	top: 25px;
+	position: absolute;
 }
 
 .navigationBar
@@ -57,7 +57,7 @@ position: absolute;
 .navGlowBar
 {
 	margin: auto;
-	width: 860px;
+	width: 852px;
 }
 
 #navGlowBarAbout
@@ -127,7 +127,7 @@ position: absolute;
 {
 	display: inline-block;
 	text-align: left;
-	text-indent: -10px;
+	text-indent: -6px;
 	color: #000000;
 	width: 188px;
 }
@@ -136,7 +136,7 @@ position: absolute;
 {
 	margin: auto;
 	width: 852px;
-	margin-bottom: -3px;
+	margin-bottom: -4px;
 }
 
 #navTabAbout
