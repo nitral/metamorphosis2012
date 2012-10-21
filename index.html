@@ -6,17 +6,18 @@
 		<title>Metamorphosis | Oasis - 2012</title>
 		<!-- CSS File Link for Formatting HTML Document. -->
 		<link type = "text/css" rel = "stylesheet" href = "./formatting.css">
-		<link rel="favicon" href = "../favicon.ico" />
+		<link rel="favicon" href = "./favicon.ico" />
 	</head>
 
 <!-- Body Begins -->
-<body onLoad = "showContent('Home')">
+<body onLoad = "showContent('About')">
 
 	<div class = "wrapper">
 	
 		<div class = "bannerBar">
 			<div id = "banner">
-				<a href = "http://www.bits-oasis.org" target = "_blank"><img src = "./images/bannerLogo.png"></a>
+				<a href = "http://www.bits-oasis.org" target = "_blank"><img src = "./images/bitsmeta.png" id = "oasisLogo"></a>
+				<a href = "https://www.facebook.com/HydnSeekh" target="_blank"><img src="./images/hyd1.png" id = "sponsorLogo"></a>
 			</div>
 		</div>
 	
@@ -28,17 +29,17 @@
 		<div class = "navigationBar">
 			
 			<div class = "navGlowBar">
-				<div id = "navGlowBarHome">
-					<img src = "./images/glowBarActive.png" id = "glowBarHome">
-				</div>
 				<div id = "navGlowBarAbout">
-					<img src = "./images/glowBarInactive.png" id = "glowBarAbout">
+					<img src = "./images/glowBarActive.png" id = "glowBarAbout">
+				</div>
+				<div id = "navGlowBarParticipate">
+					<img src = "./images/glowBarInactive.png" id = "glowBarParticipate">
 				</div>
 				<div id = "navGlowBarRules">
 					<img src = "./images/glowBarInactive.png" id = "glowBarRules">
 				</div>
-				<div id = "navGlowBarParticipate">
-					<img src = "./images/glowBarInactive.png" id = "glowBarParticipate">
+				<div id = "navGlowBarContacts">
+					<img src = "./images/glowBarInactive.png" id = "glowBarContacts">
 				</div>
 			</div>
 			
@@ -46,26 +47,26 @@
 			</div>
 		
 			<div class = "navBarLinks">
-				<a href = "javascript: showContent('Home')"><nav id = "navHome" onMouseOver = "navBarLinksHoverEffect('Home')" onMouseOut = "navBarLinksHoverEffect(0)">Home</nav></a>
 				<a href = "javascript: showContent('About')"><nav id = "navAbout" onMouseOver = "navBarLinksHoverEffect('About')" onMouseOut = "navBarLinksHoverEffect(0)">About</nav></a>
+				<a href = "javascript: showContent('Participate')"><nav id = "navParticipate" onMouseOver = "navBarLinksHoverEffect('Participate')" onMouseOut = "navBarLinksHoverEffect(0)">Participation</nav></a>
 				<a href = "javascript: showContent('Rules')"><nav id = "navRules" onMouseOver = "navBarLinksHoverEffect('Rules')" onMouseOut = "navBarLinksHoverEffect(0)">Rules</nav></a>
-				<a href = "javascript: showContent('Participate')"><nav id = "navParticipate" onMouseOver = "navBarLinksHoverEffect('Participate')" onMouseOut = "navBarLinksHoverEffect(0)">Participate</nav></a>
+				<a href = "javascript: showContent('Contacts')"><nav id = "navContacts" onMouseOver = "navBarLinksHoverEffect('Contacts')" onMouseOut = "navBarLinksHoverEffect(0)">Contacts</nav></a>
 			</div>
 			
 			<div class = "clearDiv">
 			</div>
 			
 			<div class = "navTabBar">
-			<div id = "navTabHome">
+			<div id = "navTabAbout">
 				<img src = "./images/glowBarInactive.png" height = "15px" width = "210px">
 			</div>
-			<div id = "navTabAbout">
+			<div id = "navTabParticipate">
 				<img src = "./images/glowBarInactive.png" height = "15px" width = "210px">
 			</div>
 			<div id = "navTabRules">
 				<img src = "./images/glowBarInactive.png" height = "15px" width = "210px">
 			</div>
-			<div id = "navTabParticipate">
+			<div id = "navTabContacts">
 				<img src = "./images/glowBarInactive.png" height = "15px" width = "210px">
 			</div>
 			</div>

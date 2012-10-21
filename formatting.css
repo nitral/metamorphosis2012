@@ -25,7 +25,7 @@ a
 {
 	float: left;
 	width: 100%;
-	text-align: right;
+        text-align: right;
 }
 
 #banner
@@ -33,6 +33,20 @@ a
 	background: url(./images/bannerBackground.png); 
 	height: 165px;
 	background-repeat: repeat-x;
+}
+
+#oasisLogo
+{
+right: 30px;
+top: -5px;
+position: absolute;
+}
+
+#sponsorLogo
+{
+right: 168px;
+top: 25px;
+position: absolute;
 }
 
 .navigationBar
@@ -43,10 +57,16 @@ a
 .navGlowBar
 {
 	margin: auto;
-	width: 852px;
+	width: 860px;
 }
 
-#navGlowBarHome
+#navGlowBarAbout
+{
+	margin: auto;
+	display: inline-block;
+}
+
+#navGlowBarParticipate
 {
 	margin: auto;
 	display: inline-block;
@@ -58,13 +78,7 @@ a
 	display: inline-block;
 }
 
-#navGlowBarAbout
-{
-	margin: auto;
-	display: inline-block;
-}
-
-#navGlowBarParticipate
+#navGlowBarContacts
 {
 	margin: auto;
 	display: inline-block;
@@ -82,7 +96,7 @@ a
 	margin-bottom: 0px;
 }
 
-#navHome
+#navAbout
 {
 	display: inline-block;
 	text-align: left;
@@ -91,7 +105,7 @@ a
 	color: #000000;
 }
 
-#navAbout
+#navParticipate
 {
 	display: inline-block;
 	text-align: left;
@@ -109,23 +123,29 @@ a
 	color: #000000;
 }
 
-#navParticipate
+#navContacts
 {
 	display: inline-block;
 	text-align: left;
-	text-indent: -6px;
+	text-indent: -10px;
 	color: #000000;
-	width: 204px;
+	width: 188px;
 }
 
 .navTabBar
 {
 	margin: auto;
 	width: 852px;
-	margin-bottom: -4px;
+	margin-bottom: -3px;
 }
 
-#navTabHome
+#navTabAbout
+{
+	margin: auto;
+	display: inline-block;
+}
+
+#navTabParticipate
 {
 	margin: auto;
 	display: inline-block;
@@ -137,13 +157,7 @@ a
 	display: inline-block;
 }
 
-#navTabAbout
-{
-	margin: auto;
-	display: inline-block;
-}
-
-#navTabParticipate
+#navTabContacts
 {
 	margin: auto;
 	display: inline-block;
